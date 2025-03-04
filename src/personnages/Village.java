@@ -9,6 +9,7 @@ public class Village {
 	private int nbVillageois;
 	private Gaulois chef;
 	
+	
 	public Village(String nom, int nbVillageoisMaximum) {
         this.nom = nom;
         this.villageois = new Gaulois[nbVillageoisMaximum]; 
